@@ -132,7 +132,6 @@ export function Player({ initialUrl = '' }: Props) {
             controls
             playsInline
             preload="metadata"
-            crossOrigin="anonymous"
             style={{ width: '100%', height: '100%', background: 'black', borderRadius: 8 }}
           />
         ) : (
